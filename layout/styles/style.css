@@ -22,6 +22,7 @@ aside {
 header, article, section, .module {
 	padding: 1rem;
 }
-.row{
-	display:flex;
+.row:after{
+	/*display:flex;*/
+	clear:both;
 }
